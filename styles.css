@@ -1,0 +1,13 @@
+    header {
+        color: aqua;
+        font-size: 2em;
+    }
+
+    li{
+        color: darkgreen;
+        font-size: 1em;
+    }
+
+    footer{
+        font-size: small;
+    }
