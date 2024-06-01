@@ -1,13 +1,51 @@
-    header {
-        color: aqua;
-        font-size: 2em;
-    }
+body{
+    background-color: black;
+}
+*
 
-    li{
-        color: darkgreen;
-        font-size: 1em;
-    }
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+   /* display: inline-block;*/
+}
 
-    footer{
-        font-size: small;
-    }
+li{
+    margin-bottom: 4px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.uno{
+    font-weight: 100;
+}
+
+header{
+    padding: 16px;
+}
+
+.due{
+    font-weight: 500;
+}
+
+/*element.style {
+grid-template-row: repeat (4, 1fr);
+grid-template-row: columns (4, 1fr);
+grid-column-gap: 16 px;
+}*/
+
+/*.tile {
+    grid-column: span 4;
+}*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Erstellen eines 12-Spalten-Grids */
+    gap: 1rem; /* Abstand zwischen den Spalten */
+    max-width: 1140px; /* Optional: Festlegen der maximalen Breite des Containers */
+    margin: 0 auto;
+    padding: 0 15px;
+}
